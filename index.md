@@ -3,11 +3,49 @@ layout: default
 title: CKGE-FMOC Tutorial
 ---
 
-# CKGE-FMOC: Continual Knowledge Graph Embedding: Foundations, Methods, and Open Challenges
+<style>
+  /* Hides the automatic theme header and the blue link at the top */
+  .page-header {
+    display: none !important;
+  }
+  
+  /* Container to keep the main content clean and add top spacing */
+  .main-content {
+    padding-top: 40px !important;
+  }
+
+  /* Flexbox alignment for the logo and title */
+  .title-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .title-logo {
+    height: 90px; /* Adjust the height to match your logo's proportions */
+    width: auto;
+    flex-shrink: 0;
+  }
+
+  .main-title {
+    margin: 0 !important;
+    font-size: 2rem !important;
+    line-height: 1.25 !important;
+    font-weight: 700;
+    color: #1f2937;
+  }
+</style>
+
+<div class="title-container">
+  <img src="logo.png" alt="CKGE-FMOC Logo" class="title-logo">
+  <h1 class="main-title">CKGE-FMOC: Continual Knowledge Graph Embedding: Foundations, Methods, and Open Challenges</h1>
+</div>
 
 ### A Tutorial at the **25th International Semantic Web Conference (ISWC 2026)**
 **Date:** October 25 - 29, 2026  
 **Venue:** The Nicolaus Hotel, Bari, Italy  
+
 
 ---
 
@@ -25,8 +63,8 @@ Since late 2023, a new research direction, Continual Knowledge Graph Embedding (
   <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
     <img src="images/presenter1.jfif" alt="Presenter 1 Name" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #ddd;">
     <div style="flex: 1; min-width: 250px;">
-      <h3 style="margin-top: 0;">Presenter One Name</h3>
-      <p style="margin: 5px 0;"><em>Affiliation / University / Company</em></p>
+      <h3 style="margin-top: 0;">Gerard Pons</h3>
+      <p style="margin: 5px 0;"><em>Universitat Politècnica de Catalunya</em></p>
       <p style="margin: 0;">Provide a short biography for the first presenter here. Mention their research interests, notable publications in KGE or Continual Learning, and any previous tutorial experience.</p>
     </div>
   </div>
@@ -34,8 +72,8 @@ Since late 2023, a new research direction, Continual Knowledge Graph Embedding (
   <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
     <img src="images/presenter2.jfif" alt="Presenter 2 Name" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #ddd;">
     <div style="flex: 1; min-width: 250px;">
-      <h3 style="margin-top: 0;">Presenter Two Name</h3>
-      <p style="margin: 5px 0;"><em>Affiliation / University / Company</em></p>
+      <h3 style="margin-top: 0;">Anna Queralt</h3>
+      <p style="margin: 5px 0;"><em>Universitat Politècnica de Catalunya</em></p>
       <p style="margin: 0;">Provide a short biography for the second presenter here. Highlight their specific contributions to the foundations, methods, or open challenges discussed in this session.</p>
     </div>
   </div>

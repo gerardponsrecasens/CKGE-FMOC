@@ -21,7 +21,7 @@ Insert your detailed tutorial abstract here. Describe what Continual Knowledge G
 <div style="display: flex; flex-direction: column; gap: 30px; margin-top: 20px;">
   
   <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-    <img src="images/presenter1.jpg" alt="Presenter 1 Name" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #ddd;">
+    <img src="images/presenter1.jfif" alt="Presenter 1 Name" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #ddd;">
     <div style="flex: 1; min-width: 250px;">
       <h3 style="margin-top: 0;">Presenter One Name</h3>
       <p style="margin: 5px 0;"><em>Affiliation / University / Company</em></p>
@@ -30,7 +30,7 @@ Insert your detailed tutorial abstract here. Describe what Continual Knowledge G
   </div>
 
   <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-    <img src="images/presenter2.jpg" alt="Presenter 2 Name" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #ddd;">
+    <img src="images/presenter2.jfif" alt="Presenter 2 Name" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #ddd;">
     <div style="flex: 1; min-width: 250px;">
       <h3 style="margin-top: 0;">Presenter Two Name</h3>
       <p style="margin: 5px 0;"><em>Affiliation / University / Company</em></p>

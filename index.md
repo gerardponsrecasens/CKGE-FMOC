@@ -12,7 +12,9 @@ title: CKGE-FMOC Tutorial
 ---
 
 ## Abstract
-Insert your detailed tutorial abstract here. Describe what Continual Knowledge Graph Embedding (CKGE) is, why dealing with streaming/evolving data in KGs is critical, and a brief overview of what this tutorial will cover (e.g., catastrophic forgetting, structural changes, and dynamic embedding updates).
+Knowledge Graph Embeddings (KGEs) provide fixed-length vector representations of entities and relations within a Knowledge Graph (KG), enabling a wide variety of downstream tasks over KGs. However, real-world KGs are dynamic, and continuously evolve with the addition of new entities, relations, and facts. Updating embeddings to reflect this growth without constantly retraining models from scratch, which is costly, presents a significant challenge. While generic continual learning approaches, such as fine-tuning, can be applied, they often fail to leverage the unique properties of KGs.
+
+Since late 2023, a new research direction, Continual Knowledge Graph Embedding (CKGE), has emerged to address this limitation. There is a growing interest in the field, with nearly twenty specialized methods proposed in recent years. This tutorial aims to first introduce the fundamentals and motivation behind KGEs, and then provide a comprehensive overview of CKGE. We present a structured categorization of state-of-the-art approaches, highlighting their underlying principles and differences, as well as the evaluation protocols and metrics specific to continual settings. In addition, we examine the problem of catastrophic forgetting, analyzing its causes in evolving KGs and its impact on model performance. The tutorial concludes by discussing open challenges and promising directions for future research in CKGE.
 
 ---
 

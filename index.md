@@ -84,62 +84,97 @@ Since late 2023, a new research direction, Continual Knowledge Graph Embedding (
 
 ---
 
-## Schedule
+<h2>Schedule</h2>
 
 <table style="width: 100%; border-collapse: collapse; text-align: left;">
   <thead>
     <tr style="background-color: #f6f8fa; border-bottom: 2px solid #d0d7de;">
-      <th style="padding: 12px; width: 25%;">Time Slot</th>
+      <th style="padding: 12px; width: 25%;">Session</th>
       <th style="padding: 12px; width: 20%;">Time</th>
       <th style="padding: 12px; width: 55%;">Program & Materials</th>
     </tr>
   </thead>
   <tbody>
     <tr style="border-bottom: 1px solid #d0d7de;">
-      <td rowspan="2" style="padding: 12px; font-weight: bold; vertical-align: top; background-color: #fafafa;">Slot 1: Foundations</td>
-      <td style="padding: 12px; vertical-align: top;">09:00 - 09:45</td>
-      <td style="padding: 12px; vertical-align: top;">
-        <strong>Introduction to KGE & The Streaming Challenge</strong><br>
-        A brief recap of traditional Knowledge Graph Embeddings and why static models fail in dynamic environments. 
-        <br><a href="slides/part1_foundations.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
+      <td style="padding: 12px; font-weight: bold; background-color: #fafafa;">Opening</td>
+      <td style="padding: 12px;">09:00 - 09:05</td>
+      <td style="padding: 12px;">
+        <strong>Introduction and Motivation</strong>
       </td>
     </tr>
     <tr style="border-bottom: 1px solid #d0d7de;">
-      <td style="padding: 12px; vertical-align: top;">09:45 - 10:30</td>
-      <td style="padding: 12px; vertical-align: top;">
-        <strong>Catastrophic Forgetting in KGs</strong><br>
-        Formalizing the stability-plasticity dilemma when learning continuously over evolving facts.
-        <br><a href="slides/part2_forgetting.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
+      <td style="padding: 12px; font-weight: bold; background-color: #fafafa;">Session 1</td>
+      <td style="padding: 12px;">09:05 - 09:45</td>
+      <td style="padding: 12px;">
+        <strong>Knowledge Graph Embeddings</strong><br>
+        Foundations of Knowledge Graph Embeddings.
+        <br><a href="slides/session1_kge_foundations.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
       </td>
     </tr>
     <tr style="border-bottom: 1px solid #d0d7de;">
-      <td rowspan="2" style="padding: 12px; font-weight: bold; vertical-align: top; background-color: #fafafa;">Slot 2: Methods</td>
-      <td style="padding: 12px; vertical-align: top;">11:00 - 11:45</td>
-      <td style="padding: 12px; vertical-align: top;">
-        <strong>Current Continual Learning Paradigms</strong><br>
-        Reviewing regularization-based, replay-based, and architecture-based methods adapted for graph structures.
-        <br><a href="slides/part3_methods.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
+      <td style="padding: 12px; font-weight: bold; background-color: #fafafa;">Hands-On 1</td>
+      <td style="padding: 12px;">09:45 - 10:10</td>
+      <td style="padding: 12px;">
+        <strong>Interactive Session on KGEs</strong><br>
+        Practical exercises and experimentation with Knowledge Graph Embeddings.
+        <br><a href="notebooks/kge_hands_on.ipynb" target="_blank" style="font-weight: bold; text-decoration: underline;">[Open Notebook]</a>
       </td>
     </tr>
     <tr style="border-bottom: 1px solid #d0d7de;">
-      <td style="padding: 12px; vertical-align: top;">11:45 - 12:30</td>
-      <td style="padding: 12px; vertical-align: top;">
-        <strong>Evaluation Frameworks & Benchmarks</strong><br>
-        How to rigorously track training pipelines, backward transfer, and forward transfer performance.
-        <br><a href="slides/part4_evaluation.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
+      <td style="padding: 12px; font-weight: bold; background-color: #fafafa;">Session 2</td>
+      <td style="padding: 12px;">10:10 - 10:40</td>
+      <td style="padding: 12px;">
+        <strong>Continual Knowledge Graph Embedding</strong><br>
+        Preliminaries of CKGE.
+        <br><a href="slides/session2_ckge_preliminaries.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
       </td>
     </tr>
     <tr style="border-bottom: 1px solid #d0d7de;">
-      <td rowspan="1" style="padding: 12px; font-weight: bold; vertical-align: top; background-color: #fafafa;">Slot 3: Open Challenges</td>
-      <td style="padding: 12px; vertical-align: top;">14:00 - 15:30</td>
-      <td style="padding: 12px; vertical-align: top;">
-        <strong>The Road Ahead & Interactive Discussion</strong><br>
-        Exploring unaddressed gaps like zero-shot entity alignment, scalability issues, and industry deployment hurdles followed by an open Q&A session.
-        <br><a href="slides/part5_challenges.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
+      <td style="padding: 12px; font-weight: bold; background-color: #fafafa;">Break</td>
+      <td style="padding: 12px;">10:40 - 11:10</td>
+      <td style="padding: 12px;">
+        <strong>Coffee Break</strong>
       </td>
     </tr>
+    <tr style="border-bottom: 1px solid #d0d7de;">
+      <td style="padding: 12px; font-weight: bold; background-color: #fafafa;">Session 3</td>
+      <td style="padding: 12px;">11:10 - 11:35</td>
+      <td style="padding: 12px;">
+        <strong>Categorization of CKGE Methods</strong><br>
+        Taxonomy and main building blocks.
+        <br><a href="slides/session3_ckge_taxonomy.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
+      </td>
+    </tr>
+    <tr style="border-bottom: 1px solid #d0d7de;">
+      <td style="padding: 12px; font-weight: bold; background-color: #fafafa;">Session 4</td>
+      <td style="padding: 12px;">11:35 - 12:00</td>
+      <td style="padding: 12px;">
+        <strong>Challenges in CKGE</strong><br>
+        From embedding initialization to entity interference.
+        <br><a href="slides/session4_ckge_challenges.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
+      </td>
+    </tr>
+    <tr style="border-bottom: 1px solid #d0d7de;">
+      <td style="padding: 12px; font-weight: bold; background-color: #fafafa;">Hands-On 2</td>
+      <td style="padding: 12px;">12:00 - 12:45</td>
+      <td style="padding: 12px;">
+        <strong>Interactive Session on CKGE Training and Evaluation</strong><br>
+        Practical exercises on continual learning for knowledge graphs.
+        <br><a href="notebooks/ckge_hands_on.ipynb" target="_blank" style="font-weight: bold; text-decoration: underline;">[Open Notebook]</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; font-weight: bold; background-color: #fafafa;">Closing</td>
+      <td style="padding: 12px;">12:45 - 12:50</td>
+      <td style="padding: 12px;">
+        <strong>Discussion &amp; Closing</strong>
+      </td>
+    </tr>
+
   </tbody>
 </table>
+
+
 
 ---
 
@@ -150,3 +185,4 @@ To get the most out of this tutorial, attendees are recommended to have:
 * **Hardware (Optional):** A laptop with access to Google Colab if you wish to follow along with the hands-on code examples.
 
 Familiarity with representation learning or embedding methods is helpful but not strictly required, as key concepts will be introduced during the tutorial.
+

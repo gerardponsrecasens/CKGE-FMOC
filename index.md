@@ -50,9 +50,9 @@ title: CKGE-FMOC Tutorial
 ---
 
 ## Abstract
-Knowledge Graph Embeddings (KGEs) provide fixed-length vector representations of entities and relations within a Knowledge Graph (KG), enabling a wide variety of downstream tasks over KGs. However, real-world KGs are dynamic, and continuously evolve with the addition of new entities, relations, and facts. Updating embeddings to reflect this growth without constantly retraining models from scratch, which is costly, presents a significant challenge. While generic continual learning approaches, such as fine-tuning, can be applied, they often fail to leverage the unique properties of KGs.
+Knowledge Graph Embeddings (KGEs) provide fixed-length **vector representations** of entities and relations within a Knowledge Graph (KG), enabling a wide variety of downstream tasks over KGs. However, **real-world KGs are dynamic**, and continuously evolve with the addition of new entities, relations, and facts. Updating embeddings to reflect this growth without constantly retraining models from scratch, which is costly, presents a significant challenge. While generic continual learning approaches, such as fine-tuning, can be applied, they often fail to leverage the **unique properties of KGs**.
 
-Since late 2023, a new research direction, Continual Knowledge Graph Embedding (CKGE), has emerged to address this limitation. There is a growing interest in the field, with nearly twenty specialized methods proposed in recent years. This tutorial aims to first introduce the fundamentals and motivation behind KGEs, and then provide a comprehensive overview of CKGE. We present a structured categorization of state-of-the-art approaches, highlighting their underlying principles and differences, as well as the evaluation protocols and metrics specific to continual settings. In addition, we examine the problem of catastrophic forgetting, analyzing its causes in evolving KGs and its impact on model performance. The tutorial concludes by discussing open challenges and promising directions for future research in CKGE.
+Since late 2023, a new research direction, Continual Knowledge Graph Embedding (CKGE), has emerged to address this limitation. There is a **growing interest in the field**, with nearly twenty specialized methods proposed in recent years. This tutorial aims to first introduce the **fundamentals** and motivation behind KGEs, and then provide a comprehensive **overview of CKGE**. We present a structured **categorization** of state-of-the-art approaches, highlighting their underlying principles and differences, as well as the evaluation protocols and metrics specific to continual settings. In addition, we examine the problem of **catastrophic forgetting**, analyzing its causes in evolving KGs and its impact on model performance. The tutorial concludes by discussing **open challenges and promising directions** for future research in CKGE.
 
 ---
 
@@ -65,7 +65,7 @@ Since late 2023, a new research direction, Continual Knowledge Graph Embedding (
     <div style="flex: 1; min-width: 250px;">
       <h3 style="margin-top: 0;">Gerard Pons</h3>
       <p style="margin: 5px 0;"><em>Universitat Politècnica de Catalunya</em></p>
-      <p style="margin: 0;">Provide a short biography for the first presenter here. Mention their research interests, notable publications in KGE or Continual Learning, and any previous tutorial experience.</p>
+      <p style="margin: 0;">Gerard Pons is a last-year PhD candidate in Computing from Universitat Politècnica de Catalunya (UPC), where he works on dynamic KGs, exploring topics such as CKGE and Entity Disambiguation. In addition to his research, he is also an adjunct professor at the Faculty of Informatics of Barcelona (FIB) at the UPC. He has been researching KGEs since 2021, with a particular focus on CKGE in recent years.</p>
     </div>
   </div>
 
@@ -74,7 +74,7 @@ Since late 2023, a new research direction, Continual Knowledge Graph Embedding (
     <div style="flex: 1; min-width: 250px;">
       <h3 style="margin-top: 0;">Anna Queralt</h3>
       <p style="margin: 5px 0;"><em>Universitat Politècnica de Catalunya</em></p>
-      <p style="margin: 0;">Provide a short biography for the second presenter here. Highlight their specific contributions to the foundations, methods, or open challenges discussed in this session.</p>
+      <p style="margin: 0;">Anna Queralt is an Associate Professor at UPC, where she leads the Data-intensive Technologies and Knowledge Systems (DTAK) research group. She was a Senior Researcher at the Barcelona Supercomputing Center (BSC) from 2012 to 2024, leading the Distributed Object Management research line. Her research interests include data life cycle management, knowledge bases, and graph representation learning.</p>
     </div>
   </div>
 
@@ -143,6 +143,8 @@ Since late 2023, a new research direction, Continual Knowledge Graph Embedding (
 
 ## Prerequisites
 To get the most out of this tutorial, attendees are recommended to have:
-* **Basic Knowledge:** Familiarity with Knowledge Graphs and standard embedding frameworks (e.g., TransE, RotatE).
-* **Programming:** Familiarity with Python, PyTorch, or Deep Graph Library (DGL).
+* **Basic Knowledge:** Familiarity with Knowledge Graphs and Machine Learning.
+* **Programming:** Familiarity with Python.
 * **Hardware (Optional):** A laptop with access to Google Colab if you wish to follow along with the hands-on code examples.
+
+Familiarity with representation learning or embedding methods is helpful but not strictly required, as key concepts will be introduced during the tutorial.

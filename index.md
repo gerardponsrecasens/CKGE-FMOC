@@ -38,7 +38,7 @@ title: CKGE-FMOC Tutorial
 </style>
 
 <div class="title-container">
-  <img src="logo.png" alt="CKGE-FMOC Logo" class="title-logo">
+  <img src="images/logo.png" alt="CKGE-FMOC Logo" class="title-logo">
   <h1 class="main-title">CKGE-FMOC: Continual Knowledge Graph Embedding: Foundations, Methods, and Open Challenges</h1>
 </div>
 

@@ -42,9 +42,11 @@ title: CKGE-FMOC Tutorial
   <h1 class="main-title">CKGE-FMOC: Continual Knowledge Graph Embedding: Foundations, Methods, and Open Challenges</h1>
 </div>
 
-### A Tutorial at the **25th International Semantic Web Conference (ISWC 2026)**
-**Date:** October 25 - 29, 2026  
-**Venue:** The Nicolaus Hotel, Bari, Italy  
+<div style="text-align: center; margin: 30px 0; line-height: 1.8;">
+  <h3 style="margin-bottom: 10px; color: #1f2937;">A Tutorial at the <strong>25th International Semantic Web Conference (ISWC 2026)</strong></h3>
+  <span style="display: block; font-size: 1.05rem;"><strong>Date:</strong> October 25 - 29, 2026</span>
+  <span style="display: block; font-size: 1.05rem;"><strong>Venue:</strong> The Nicolaus Hotel, Bari, Italy</span>
+</div>
 
 
 ---

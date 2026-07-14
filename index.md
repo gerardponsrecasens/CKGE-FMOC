@@ -108,7 +108,7 @@ Since late 2023, a new research direction, Continual Knowledge Graph Embedding (
       <td style="padding: 12px;">
         <strong>Knowledge Graph Embeddings</strong><br>
         Foundations of Knowledge Graph Embeddings.
-        <br><a href="slides/Session1_Introduction_to_emeddings.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
+        <br><a href="slides/Session1_Introduction_to_embeddings.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
       </td>
     </tr>
     <tr style="border-bottom: 1px solid #d0d7de;">
@@ -117,7 +117,7 @@ Since late 2023, a new research direction, Continual Knowledge Graph Embedding (
       <td style="padding: 12px;">
         <strong>Interactive Session on KGEs</strong><br>
         Practical exercises and experimentation with Knowledge Graph Embeddings.
-        <br><a href="notebooks/kge_hands_on.ipynb" target="_blank" style="font-weight: bold; text-decoration: underline;">[Open Notebook]</a>
+        <br><a href="https://colab.research.google.com/drive/12CN79QJuLZMgYLp6uOMXJLnBR0osZ0RJ?usp=sharing" target="_blank" style="font-weight: bold; text-decoration: underline;">[Open Notebook]</a>
       </td>
     </tr>
     <tr style="border-bottom: 1px solid #d0d7de;">

@@ -108,7 +108,7 @@ Since late 2023, a new research direction, Continual Knowledge Graph Embedding (
       <td style="padding: 12px;">
         <strong>Knowledge Graph Embeddings</strong><br>
         Foundations of Knowledge Graph Embeddings.
-        <br><a href="slides/session1_kge_foundations.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
+        <br><a href="slides/Session1_Introduction_to_emeddings.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
       </td>
     </tr>
     <tr style="border-bottom: 1px solid #d0d7de;">
@@ -126,7 +126,7 @@ Since late 2023, a new research direction, Continual Knowledge Graph Embedding (
       <td style="padding: 12px;">
         <strong>Continual Knowledge Graph Embedding</strong><br>
         Preliminaries of CKGE.
-        <br><a href="slides/session2_ckge_preliminaries.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
+        <br><a href="slides/Session2_CKGE.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
       </td>
     </tr>
     <tr style="border-bottom: 1px solid #d0d7de;">
@@ -142,7 +142,7 @@ Since late 2023, a new research direction, Continual Knowledge Graph Embedding (
       <td style="padding: 12px;">
         <strong>Categorization of CKGE Methods</strong><br>
         Taxonomy and main building blocks.
-        <br><a href="slides/session3_ckge_taxonomy.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
+        <br><a href="slides/Session3_Characterization.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
       </td>
     </tr>
     <tr style="border-bottom: 1px solid #d0d7de;">
@@ -151,7 +151,7 @@ Since late 2023, a new research direction, Continual Knowledge Graph Embedding (
       <td style="padding: 12px;">
         <strong>Challenges in CKGE</strong><br>
         From embedding initialization to entity interference.
-        <br><a href="slides/session4_ckge_challenges.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
+        <br><a href="slides/Session4_Challenges.pdf" target="_blank" style="font-weight: bold; text-decoration: underline;">[Download PDF Slides]</a>
       </td>
     </tr>
     <tr style="border-bottom: 1px solid #d0d7de;">

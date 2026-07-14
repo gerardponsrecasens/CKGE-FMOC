@@ -117,7 +117,7 @@ Since late 2023, a new research direction, Continual Knowledge Graph Embedding (
       <td style="padding: 12px;">
         <strong>Interactive Session on KGEs</strong><br>
         Practical exercises and experimentation with Knowledge Graph Embeddings.
-        <br><a href="https://colab.research.google.com/drive/12CN79QJuLZMgYLp6uOMXJLnBR0osZ0RJ?usp=sharing" target="_blank" style="font-weight: bold; text-decoration: underline;">[Open Notebook]</a>
+        <br><a href="https://colab.research.google.com/drive/1mN2EjU9zfR11RYo2fUIhs9hsz_mzNRXm?usp=sharing" target="_blank" style="font-weight: bold; text-decoration: underline;">[Open Notebook]</a>
       </td>
     </tr>
     <tr style="border-bottom: 1px solid #d0d7de;">
@@ -160,7 +160,7 @@ Since late 2023, a new research direction, Continual Knowledge Graph Embedding (
       <td style="padding: 12px;">
         <strong>Interactive Session on CKGE Training and Evaluation</strong><br>
         Practical exercises on continual learning for knowledge graphs.
-        <br><a href="notebooks/ckge_hands_on.ipynb" target="_blank" style="font-weight: bold; text-decoration: underline;">[Open Notebook]</a>
+        <br><a href="https://colab.research.google.com/drive/12CN79QJuLZMgYLp6uOMXJLnBR0osZ0RJ?usp=sharing" target="_blank" style="font-weight: bold; text-decoration: underline;">[Open Notebook]</a>
       </td>
     </tr>
     <tr>
